@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "definitions": {}, 
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "accessToken": {
+      "default": "9e7c0a51-a828-4fa2-b473-271c439735a9", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "9e7c0a51-a828-4fa2-b473-271c439735a9"
+      ], 
+      "id": "/properties/accessToken", 
+      "title": "The accesstoken schema.", 
+      "type": "string"
+    }, 
+    "clientConfig": {
+      "id": "/properties/clientConfig", 
+      "properties": {
+        "client_token": {
+          "default": "", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            ""
+          ], 
+          "id": "/properties/clientConfig/properties/client_token", 
+          "title": "The client_token schema.", 
+          "type": "string"
+        }, 
+        "directDomains": {
+          "id": "/properties/clientConfig/properties/directDomains", 
+          "items": {
+            "default": "whatismyip.akamai.com", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "whatismyip.akamai.com"
+            ], 
+            "id": "/properties/clientConfig/properties/directDomains/items", 
+            "title": "The 0 schema.", 
+            "type": "string"
+          }, 
+          "type": "array"
+        }, 
+        "directSponsoredDomains": {
+          "id": "/properties/clientConfig/properties/directSponsoredDomains", 
+          "items": {
+            "default": "abc.com", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "abc.com"
+            ], 
+            "id": "/properties/clientConfig/properties/directSponsoredDomains/items", 
+            "title": "The 0 schema.", 
+            "type": "string"
+          }, 
+          "type": "array"
+        }, 
+        "directURLs": {
+          "id": "/properties/clientConfig/properties/directURLs", 
+          "items": {
+            "default": "locationservice.mediasearch.verizon.com/Geolocation/CloudLive/Restriction/IP", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "locationservice.mediasearch.verizon.com/Geolocation/CloudLive/Restriction/IP"
+            ], 
+            "id": "/properties/clientConfig/properties/directURLs/items", 
+            "title": "The 0 schema.", 
+            "type": "string"
+          }, 
+          "type": "array"
+        }, 
+        "enableLocalServerSupport": {
+          "default": false, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "False"
+          ], 
+          "id": "/properties/clientConfig/properties/enableLocalServerSupport", 
+          "title": "The enablelocalserversupport schema.", 
+          "type": "boolean"
+        }, 
+        "enableSyncSupport": {
+          "default": true, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "True"
+          ], 
+          "id": "/properties/clientConfig/properties/enableSyncSupport", 
+          "title": "The enablesyncsupport schema.", 
+          "type": "boolean"
+        }, 
+        "forceIPV6ToCSP": {
+          "default": false, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "False"
+          ], 
+          "id": "/properties/clientConfig/properties/forceIPV6ToCSP", 
+          "title": "The forceipv6tocsp schema.", 
+          "type": "boolean"
+        }, 
+        "proxy_endpoints": {
+          "default": "", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            ""
+          ], 
+          "id": "/properties/clientConfig/properties/proxy_endpoints", 
+          "title": "The proxy_endpoints schema.", 
+          "type": "string"
+        }, 
+        "v4Blob": {
+          "default": "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\nvk35T5U7EBaWYLbKuMJM4b28EOt8D/k=\n", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "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\nvk35T5U7EBaWYLbKuMJM4b28EOt8D/k=\n"
+          ], 
+          "id": "/properties/clientConfig/properties/v4Blob", 
+          "title": "The v4blob schema.", 
+          "type": "string"
+        }, 
+        "vastAdElements": {
+          "id": "/properties/clientConfig/properties/vastAdElements", 
+          "items": {
+            "default": "VASTAdTagURI", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "VASTAdTagURI"
+            ], 
+            "id": "/properties/clientConfig/properties/vastAdElements/items", 
+            "title": "The 0 schema.", 
+            "type": "string"
+          }, 
+          "type": "array"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "operatorProxyEndpoints": {
+      "id": "/properties/operatorProxyEndpoints", 
+      "properties": {
+        "production": {
+          "default": null, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "None"
+          ], 
+          "id": "/properties/operatorProxyEndpoints/properties/production", 
+          "title": "The production schema.", 
+          "type": "null"
+        }, 
+        "sandbox": {
+          "default": null, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "None"
+          ], 
+          "id": "/properties/operatorProxyEndpoints/properties/sandbox", 
+          "title": "The sandbox schema.", 
+          "type": "null"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "proxyEndpoints": {
+      "id": "/properties/proxyEndpoints", 
+      "properties": {
+        "production": {
+          "default": "fbroute.syntoniccsp.com", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "fbroute.syntoniccsp.com"
+          ], 
+          "id": "/properties/proxyEndpoints/properties/production", 
+          "title": "The production schema.", 
+          "type": "string"
+        }, 
+        "sandbox": {
+          "default": "fbroutesbx.syntoniccsp.com", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "fbroutesbx.syntoniccsp.com"
+          ], 
+          "id": "/properties/proxyEndpoints/properties/sandbox", 
+          "title": "The sandbox schema.", 
+          "type": "string"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "trackNonSponsoredStats": {
+      "default": true, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "True"
+      ], 
+      "id": "/properties/trackNonSponsoredStats", 
+      "title": "The tracknonsponsoredstats schema.", 
+      "type": "boolean"
+    }, 
+    "updateFrequency": {
+      "default": 1800, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "1800"
+      ], 
+      "id": "/properties/updateFrequency", 
+      "title": "The updatefrequency schema.", 
+      "type": "integer"
+    }
+  }, 
+  "type": "object"
+}
